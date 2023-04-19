@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="Assets/CSS/new.css">
+    <script src="Assets/JS/forms.js"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Join Us</title>
+</head>
+<body>
+
+    <header >
+        <img class="leftImg" src="Assets/Images/logo.jpg">
+        <p >Join Us</p>
+    </header>
+    <br>
+    <nav class="nav">
+            
+        <!-- vertical Menu -->
+        <ul>
+            <li><a href="homepage.html" class="active">Home page</a></li>
+            <li><a href="members.html" class="active">Current Members</a></li>
+            <li><a href="gallery.html" class="active">Images Gallery</a></li>
+            <li><a href="contactUs.html" class="active">Contact Us</a></li>
+            <li><a href="events.html" class="active">Events </a></li>
+            <li><a href="joinUs.html" class="active">Join Us</a></li>
+            <li><a href="guessingGame.html" class="active">Guessing Game</a></li>
+            <li><a href="instruments.html" class="active">Instuments</a></li>
+        </ul>
+
+    </nav>
+
+    <main>
+        <center>
+        <aside id='col2'>
+            <p style="border: 2px solid rgb(3, 3, 3); background-color: rgb(206, 144, 0); font-weight: bolder;">
+                SUBSCRIBE TO OUR NEWSLETTER
+            </p>
+            <p>
+                Provide your email address to subscribe to our Newsletter, events and last update. You can change your mind at 
+                any time by clicking the unsubscribe link in the footer of any email you receive from us, or by contacting us at 
+                newsletter.cmsociety@rgu.ac.uk
+            </p>
+            <div class="container">
+                <form onsubmit="return newsletter()">
+                    <label for="fname">Email </label>
+                    <input type="text" id="fname" name="firstname" placeholder="Your Email..">
+                    <br>
+                    <br>
+                    <input type="submit" id="subscribe" value="Subscribe" > 
+                </form>    
+            </div>
+            <br>
+            <img src="Assets/Images/img33.jpg">
+        </aside>
+        
+        <aside id='col1'>
+            <p style="border: 2px solid rgb(3, 3, 3); background-color: rgb(206, 144, 0); font-weight: bolder;">
+                MEMBERSHIP 2023/24 SEASON
+            </p>
+            <p>
+                We are pleased to be able to announce that membership of the Society is now open, to join us please complete 
+                the form below.
+            </p>   
+            <p style="color: red;">
+                Required fields are highlighted with (*)
+            </p>
+            <br>                       
+            <div class="container">
+                <form onsubmit="return membership()">
+                    <label for="fname">First Name *</label>
+                    <input type="text" id="fname" name="firstname" placeholder="First name..">
+                    <label for="fname">Last Name *</label>
+                    <input type="text" id="fname" name="firstname" placeholder="Last name..">
+                    <br>
+                    <label for="fname">Date of Birth </label>
+                    <input type="text" id="fname" name="firstname" placeholder="DD/MM/YYYY">
+                    <label for="fname">Year of study *</label>
+                    <input type="text" id="fname" name="firstname" placeholder="YYYY">
+                    <br>
+                    <label for="fname">School name *</label>
+                    <input type="text" id="fname" name="firstname" placeholder="School name..">
+                    <label for="fname">Student Num *</label>
+                    <input type="text" id="fname" name="firstname" placeholder="Student num..">
+                    <br>
+                    <label for="fname">Email address *</label>
+                    <input type="text" id="fname" name="firstname" placeholder="Email address..">
+                    <label for="fname">Contact Num</label>
+                    <input type="text" id="fname" name="firstname" placeholder="+44...">
+                    <br>
+                    <br>
+                    <input type="submit" value="submit" >
+                    <br>
+                    <br>   
+                </form>    
+            </div>
+            <img src="Assets/Images/img66.jpg">
+        </aside>
+        </center>
+    </main>
+    <br>
+    <footer>Foxtrot copy right © 2022<footer>
+</body>
+</html>

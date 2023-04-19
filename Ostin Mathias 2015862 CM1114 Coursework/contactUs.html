@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="Assets/CSS/new.css">
+    <script src="Assets/JS/forms.js"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+</head>
+<body>
+    <header >
+        <img class="leftImg" src="Assets/Images/logo.jpg" >
+        <p >Contact Us</p>
+    </header>
+    <br>
+    <nav class="nav">
+            
+        <!-- vertical Menu -->
+        <ul>
+            <li><a href="homepage.html" class="active">Home page</a></li>
+            <li><a href="members.html" class="active">Current Members</a></li>
+            <li><a href="gallery.html" class="active">Images Gallery</a></li>
+            <li><a href="contactUs.html" class="active">Contact Us</a></li>
+            <li><a href="events.html" class="active">Events </a></li>
+            <li><a href="joinUs.html" class="active">Join Us</a></li>
+            <li><a href="guessingGame.html" class="active">Guessing Game</a></li>
+            <li><a href="instruments.html" class="active">Instuments</a></li>
+        </ul>
+
+    </nav>
+
+    <main>
+        <center>
+        <aside id='col2'>
+            <p style="border: 2px solid rgb(3, 3, 3); background-color: rgb(206, 144, 0); font-weight: bolder;">
+                MEMBERSHIP EXECUTIVE
+            </p>
+            <img src="Assets/Images/Screenshot (27).png">
+            <p>
+                Fredric Chopin The Eleventh
+                <br>
+                Head Of Members
+                <br>
+                <br>
+                If you have any queries about membership details please contact them through:-
+                <br>
+                Email: f.chopin@rgu.ac.uk
+            </p>
+            <br>
+            <p style="border: 2px solid rgb(3, 3, 3); background-color: rgb(206, 144, 0); font-weight: bolder;">
+                SOCIAL MEDIA EXECUTIVE
+            </p>
+            <img src="Assets/Images/Screenshot (27).png">
+            <p>
+                Rachel Portman
+                <br>
+                Head Of Social Media
+                <br>
+                <br>
+                If you have any submissions for the Society's magazine please contact them thorough:-
+                <br>
+                Email: r.portman@rgu.ac.uk
+            </p>
+            <p style="color: red; font-weight:bolder;">
+                <br>
+                <br>
+                Please do remember that the easiest way to get in touch with us is via our Facebook, Twiter or Instagram pages.
+                <br>
+            </p>
+        </aside>
+
+        <aside id='col1'>
+            <p style="border: 2px solid rgb(3, 3, 3); background-color: rgb(206, 144, 0); font-weight: bolder;">
+                GENERAL INQUIRIES
+            </p>
+            <p>
+                For any general inquiries you can use the form below to get in touch with us.
+            </p>
+            <p style="color: red;">
+                Required fields are highlighted with (*)
+            </p>
+            <br>
+            <div class="container">
+                <form onsubmit="return contact()">
+                    <label for="fname">Your Name *</label>
+                    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                    <br>
+                    <br>
+                    <label for="lname">Your Email *</label>
+                    <input type="text" id="lname" name="lastname" placeholder="Your Email..">
+                    <br>
+                    <br>
+                    <label for="lname">Subject *</label>
+                    <input type="text" id="lname" name="lastname" placeholder="Subject..">
+                    <br>
+                    <br>
+                    <label for="subject">Your Message *</label>
+                    <textarea id="subject" name="subject" placeholder="Message for us.." style="height:100px"></textarea>
+                    <br>
+                    <input type="submit" value="submit" >     
+                </form>    
+            </div>
+        </aside>
+        </center>
+    </main>
+    <br>
+    <footer>Foxtrot copy right © 2022<footer>
+</body>
+</html>

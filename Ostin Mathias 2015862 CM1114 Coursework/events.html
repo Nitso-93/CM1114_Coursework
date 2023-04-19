@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="Assets/css/events.css">
+    <link rel="stylesheet" href="Assets/CSS/new.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Events</title>
+
+    <script>
+    function Twitter() {
+        x = document.getElementById("Twitter");
+        if (x.style.display === "none") {
+            x.style.display = "inline-block";
+        } else {
+             x.style.display = "none";
+    }}
+    function LinkedIn() {
+        y = document.getElementById("LinkedIn");
+        if (y.style.display === "none") {
+            y.style.display = "inline-block";
+        } else {
+            y.style.display = "none";
+    }}
+    function Facebook() {
+        z = document.getElementById("Facebook");
+        if (z.style.display === "none") {
+            z.style.display = "inline-block";
+        } else {
+            z.style.display = "none";
+    }}
+    function TikTok() {
+        t = document.getElementById("Tiktok");
+        if (t.style.display === "none") {
+            t.style.display = "inline-block";
+        } else {
+            t.style.display = "none";
+    }}
+
+
+    </script>
+</head>
+<body>
+    <div id="fb-root"></div>
+    <div id="fb-root"></div>
+    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/ru_RU/sdk.js#xfbml=1&version=v13.0" nonce="I6HQY3G1"></script>
+    
+    <header >
+        <img class="leftImg" src="assets/images/logo.jpg" >
+        <p >Events</p>
+    </header>
+    <br>
+    <nav class="nav">
+            
+        <!-- vertical Menu -->
+        <ul>
+            <li><a href="homepage.html" class="active">Home page</a></li>
+            <li><a href="members.html" class="active">Current Members</a></li>
+            <li><a href="gallery.html" class="active">Images Gallery</a></li>
+            <li><a href="contacUs.html" class="active">Contact Us</a></li>
+            <li><a href="events.html" class="active">Events </a></li>
+            <li><a href="joinUs.html" class="active">Join Us</a></li>
+            <li><a href="guessingGame.html" class="active">Guessing Game</a></li>
+            <li><a href="instruments.html" class="active">Instuments</a></li>
+        </ul>
+
+    </nav>
+    
+    <main>
+        <!--Buttons to show/hide elements-->
+        <div class="controls">
+        <p>Press buttons to show or hide different platforms</p>
+        
+        <button onclick="Twitter()">Twitter Toggle</button>
+        <button onclick="LinkedIn()">LinkedIn Toggle</button>
+        <button onclick="Facebook()">Facebook Toggle</button>
+        <button onclick="TikTok()">Tik Tok Toggle</button>
+        </div>
+
+        <div id="everything">
+        <div id="Twitter"><a class="twitter-timeline" data-width="250" data-height="400" href="https://twitter.com/BirrFestofMusic?ref_src=twsrc%5Etfw">Tweets by BirrFestofMusic</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></div>
+        
+        <div id="LinkedIn"><iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:6914235308284805121" height="400" width="auto" frameborder="0" allowfullscreen="" title="Embedded post"></iframe></div>
+        
+        <div id="Facebook"><iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FClassical.Mussic&tabs=timeline&width=340&height=400&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="340" height="400" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe></div>
+        
+        <div id="Tiktok"> <blockquote class="tiktok-embed" cite="https://www.tiktok.com/@classicalmusiclove" data-unique-id="classicalmusiclove"  data-embed-type="creator" style="max-width: 720px; min-width: 288px;" > <section> <a target="_blank" href="https://www.tiktok.com/@classicalmusiclove?refer=creator_embed">@classicalmusiclove</a> </section> </blockquote> <script async src="https://www.tiktok.com/embed.js"></script></div>
+    </div>
+    </main>
+    <br>
+    <footer>Foxtrot copy right © 2022<footer>
+</body>
+</html>
